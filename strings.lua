@@ -25,3 +25,15 @@ page = [[
 ]]
 
 print(page)
+
+
+-- Lua provides automatic conversions between numbers and strings at run time. 
+-- Any numeric operation applied to a string tries to convert the string to a number:
+
+print("10" + 1)           --> 11
+print("10 + 1")           --> 10 + 1
+print("-5.3e-10"*"2")     --> -1.06e-09
+-- print("hello" + 1)        -- ERROR (cannot convert "hello")
+
+-- it appears lua will treat numbers as strings where string functions are executed
+print(10 .. 20)

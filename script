@@ -1,0 +1,12 @@
+#!/usr/bin/env lua
+
+-- this is a lua script woot
+
+print("this is the script being called")
+print(arg[0])
+print("this is the first arg")
+print(arg[1])
+print("this is the lua command whoa")
+print(arg[-1])
+print("and even further although its nil")
+print(arg[-2])

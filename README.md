@@ -2,6 +2,9 @@ I am doing lua tutorials!
 
 Follow me!
 
+## Interesting Facts
+   Lua can call functions written in Lua and functions written in C
+
 ## False, nil, true
   Only false and nil are false, everything else is true, this includes zero and an empty string
 
